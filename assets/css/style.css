@@ -46,6 +46,7 @@ body {
   --radius: 1rem;
   border-radius: var(--radius);
   width: min(100% - 4rem, 60rem);
+    overflow: hidden;
 }
 .component {
   padding: 2.6rem;
@@ -127,4 +128,5 @@ body {
     grid-row: 2 / -1;
   }
 }
+
 
